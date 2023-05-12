@@ -11,5 +11,11 @@ public class Main {
         Emprestimo.calcular(10, 2);
         Emprestimo.calcular(100, 5);
         Emprestimo.calcular(100, 3);
+
+        System.out.println("\nArea dos Quadrilateros Notaveis:");
+        QuadrilaterosNotaveis.area(4);
+        QuadrilaterosNotaveis.area(5, 4);
+        QuadrilaterosNotaveis.area(4, 2, 4);
+
     }
 }
