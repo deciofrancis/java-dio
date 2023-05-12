@@ -17,5 +17,16 @@ public class Main {
         QuadrilaterosNotaveis.area(5, 4);
         QuadrilaterosNotaveis.area(4, 2, 4);
 
+        System.out.println("\nArea dos Quadrilateros Notaveis retornos:");
+        
+        double areaQuadrado = QuadrilaterosNotaveisReturn.area(5);
+        System.out.println("A area do quadrado: " + areaQuadrado);
+
+        double areaRetangulo = QuadrilaterosNotaveisReturn.area(4, 3);
+        System.out.println("A area do quadrado: " + areaRetangulo);
+
+        double areaTrapezio = QuadrilaterosNotaveisReturn.area(6, 4, 5);
+        System.out.println("A area do trapezio: " + areaTrapezio);
+
     }
 }
