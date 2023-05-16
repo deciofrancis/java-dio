@@ -1,7 +1,7 @@
 public class RodarAplicacao {
     public static void main(String[] args) {
 
-        Carro carro1 = new Carro();
+        Veiculo carro1 = new Veiculo();
 
         carro1.setCor("Azul");
         carro1.setModelo("BMW Série 3");
@@ -12,7 +12,7 @@ public class RodarAplicacao {
         System.out.println(carro1.getCapacidadeTanque());
         System.out.println(carro1.totalValorTanque(6.39));
 
-        Carro carro2 = new Carro("Cinza", "Mercedes-Benz Classe C ", 66);
+        Veiculo carro2 = new Veiculo("Cinza", "Mercedes-Benz Classe C ", 66);
 
         System.out.println(carro2.getModelo());
         System.out.println(carro2.getCor());
