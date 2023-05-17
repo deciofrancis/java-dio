@@ -1,0 +1,34 @@
+class RodarAplicacao {
+
+    public static void main(String[] args) {
+
+        //Exercicio de herança
+        Funcionario funcionario = new Funcionario();
+
+        Funcionario gerente = new Gerente();
+        Funcionario vendedor = new Vendedor();
+        Funcionario faxineiro = new Faxineiro();
+
+        //Gerente gerente_ = new Funcionario();
+        Vendedor vendedor_ = (Vendedor) new Funcionario();
+
+        //Exercicio de polimorfismo e sobrescrita
+        ClasseMae[] classes = new ClasseMae[]{new ClasseFilha1(), new ClasseFilha2(), new ClasseMae()};
+
+        for (ClasseMae classe: classes) {
+            classe.metodo1();
+        }
+
+        System.out.println("");
+
+        for (ClasseMae classe: classes) {
+            classe.metodo2();
+        }
+
+        System.out.println("");
+
+        ClasseFilha2 classeFilha2 = new ClasseFilha2();
+        classeFilha2.metodo2();
+
+    }
+}
